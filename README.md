@@ -1,20 +1,27 @@
-# Is the mushroom edible?
-Roy Andhika Satria, [satriaroy70@gmail.com](mailto:satriaroy70@gmail.com).
+# Final Project Bootcamp Digital Skola 
+`D'herai Team` 
+- Melinda Desty Puspitasari
+- Roy Andhika Satria
+- Ahmad Nasirul Huda
+- Nurhadi
+- Devina Kathrine Hascaryengtyas
 
-## Classification
+# Mushroom Classification
+
 Sebuah proyek machine learning yang menggunakan algoritma klasifikasi untuk memprediksi apakah sebuah jamur beracun atau tidak.
 
 ## Dataset
 Data bersumber dari [Kaggle](https://www.kaggle.com/datasets/uciml/mushroom-classification).  
-Data berisi informasi mengenai daftar jenis jamur yang aslinya berasal dari **UCI Machine Learning repository** hampir 30 tahun yang lalu. *Shrooming* (mushroom hunting) sempat menjadi populer pada masa itu. Dataset ini memiliki sampel dari 23 spesies jamur, dan tiap spesies diidentifikasi sebagai *edible* atau *poisonous*.
+Data berisi informasi mengenai daftar jenis jamur yang aslinya berasal dari UCI Machine Learning repository hampir 30 tahun yang lalu. Shrooming (mushroom hunting) sempat menjadi populer pada masa itu. Dataset ini memiliki sampel dari 23 spesies jamur yang diambil dari The Audubon Society Field Guide to North American Mushrooms (1981). dan tiap spesies diidentifikasi sebagai edible atau poisonous.
 
 ## Tujuan
-Harapannya saya bisa menentukan apakah sebuah jamur bisa dimakan atau tidak, berdasarkan dari ciri - cirinya dengan menggunakan data yang telah ada sebagai data *training* untuk machine learning.
+Berdasarkan karakteristik yang ada kita bisa mengetahui apakah sebuah jamur bisa dimakan atau tidak (beracun). Dengan melakukan training data menggunakan machine learning. Dalam prediksi sangat di pertimbangkan mengenai false negatif karena ketika prediksi kita terhadap karakteristik jamur mendapatkan hasil negatif namun pada kenyataanya positif. Hal ini sangat berbahaya untuk kehidupan manusia.
 
 ### Problem Statement :
-1. Model apa yang paling tepat untuk klasifikasi jamur?
-1. Fitur apa yang paling menentukan sebuah jamur beracun?
-1. Matriks dan scoring apa akan digunakan untuk pengukuran kualitas machine learning?
+1. Fitur yang paling menentukan sebuah jamur beracun?
+2. Fitur yang paling tidak berpengaruh dalam pengelompokan?
+3. Model machine learning yang paling tepat?
+4. Scoring yang digunakan untuk hasil model?
 
 ## Penjelasan Dataset 
 Dataset yang ada meliputi `8124` pengamatan dengan `22` fitur dan 1 label (`Class`)
